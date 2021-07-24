@@ -20,6 +20,7 @@ public class RenueTestApp implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
+        System.out.print("Введите желаемую строку для фильтрации: ");
         var input = getInput();
 
         airportsDAO.getAirports(input, new ParserCSV(","));
