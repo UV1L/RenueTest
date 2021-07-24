@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.catstack.testapp</groupId>
+    <groupId>net.noname.testapp</groupId>
     <artifactId>RenueTest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -16,7 +16,7 @@
     </parent>
 
     <properties>
-        <start-class>net.catstack.testapp.RenueTestApp</start-class>
+        <start-class>net.noname.testapp.RenueTestApp</start-class>
     </properties>
 
     <build>
